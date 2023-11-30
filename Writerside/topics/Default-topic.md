@@ -1,80 +1,72 @@
-# This is the first topic
+# PDCA
 
-<!--Writerside adds this topic when you create a new documentation project.
-You can use it as a sandbox to play with Writerside features, and remove it from the TOC when you don't need it anymore.
-If you want to re-add it for your experiments, click + to create a new topic, choose Topic from Template, and select the 
-"Starter" template.-->
+[**Plan**](#plan) [**Do**](#do) [**Check**](#check) [**Action**](#action)
 
-## Add new topics
-You can create empty topics, or choose a template for different types of content that contains some boilerplate structure to help you get started:
+## Plan {collapsible="true"}
 
-![Create new topic options](new_topic_options.png){ width=290 }{border-effect=line}
+### I.clarify the issue
 
-## Write content
-%product% supports two types of markup: Markdown and XML.
-When you create a new help article, you can choose between two topic types, but this doesn't mean you have to stick to a single format.
-You can author content in Markdown and extend it with semantic attributes or inject entire XML elements.
+Issue can be defined by three ways
+: - Anything that deviates from the norm
+: - the gap between reality and expectation
+: - Unmet customer needs
 
-## Inject XML
-For example, this is how you inject a procedure:
+To clarify the issues best,we need to take a good look for issues using our own eyes.
+> Detail & Practical experience
+> {style="note"}
 
-<procedure title="Inject a procedure" id="inject-a-procedure">
-    <step>
-        <p>Start typing and select a procedure type from the completion suggestions:</p>
-        <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
-    </step>
-    <step>
-        <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
-    </step>
-</procedure>
+### II.split issues
 
-## Add interactive elements
+Split into more detail issues.
 
-### Tabs
-To add switchable content, you can make use of tabs (inject them by starting to type `tab` on a new line):
+Determine the work flow.
 
-<tabs>
-    <tab title="Markdown">
-        <code-block lang="plain text">![Alt Text](new_topic_options.png){ width=450 }</code-block>
-    </tab>
-    <tab title="Semantic markup">
-        <code-block lang="xml">
-            <![CDATA[<img src="new_topic_options.png" alt="Alt text" width="450px"/>]]></code-block>
-    </tab>
-</tabs>
+Managing and solving a bunch of micro problems all at once is much more effective than trying to solve a big problem
+with no direction.
 
-### Collapsible blocks
-Apart from injecting entire XML elements, you can use attributes to configure the behavior of certain elements.
-For example, you can collapse a chapter that contains non-essential information:
+### III.Set goals
 
-#### Supplementary info {collapsible="true"}
-Content under such header will be collapsed by default, but you can modify the behavior by adding the following attribute:
-`default-state="expanded"`
+Analyze the root causes.
 
-### Convert selection to XML
-If you need to extend an element with more functions, you can convert selected content from Markdown to semantic markup.
-For example, if you want to merge cells in a table, it's much easier to convert it to XML than do this in Markdown.
-Position the caret anywhere in the table and press <shortcut>Alt+Enter</shortcut>:
+The third step is all about `commitment` and `focus`.
 
-<img src="convert_table_to_xml.png" alt="Convert table to XML" width="706" border-effect="line"/>
+Focus on what is `needed` to complete the project and `how long` it will take to complete.
 
-## Feedback and support
-Please report any issues, usability improvements, or feature requests to our 
-<a href="https://youtrack.jetbrains.com/newIssue?project=WRS">YouTrack project</a>
-(you will need to register).
+> Set challenging goals, but within limits.
+> {style="note"}
 
-You are welcome to join our
-<a href="https://join.slack.com/t/writerside/shared_invite/zt-1hnvxnl0z-Nc6RWXTppRI2Oc566vumYw">public Slack workspace</a>.
-Before you do, please read our [Code of conduct](https://plugins.jetbrains.com/plugin/20158-writerside/docs/writerside-code-of-conduct.html).
-We assume that you’ve read and acknowledged it before joining.
+### IV.Analyze the root causes
 
-You can also always send an email to [writerside@jetbrains.com](mailto:writerside@jetbrains.com).
+Make sure you are considering all potential root causes and dealing with them properly.
 
-<seealso>
-    <category ref="wrs">
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/markup-reference.html">Markup reference</a>
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/manage-table-of-contents.html">Reorder topics in the TOC</a>
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/local-build.html">Build and publish</a>
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/configure-search.html">Configure Search</a>
-    </category>
-</seealso>
+### V.develop countermeasure
+
+Once you've identified your root cause, you can use that information to develop countermeasures needed to eliminate the
+root cause.
+
+Once you have developed your countermeasures, you can start narrowing them down to the most practical and effective ones
+based on your goals.
+
+## Do {collapsible="true"}
+
+### VI.Implement countermeasures
+
+> Communication is very important
+> {style="note"}
+
+Consider implementing one countermeasure at a time to monitor the effectiveness of each countermeasure.
+
+## Check {collapsible="true"}
+
+### VII.Monitor results and processes
+
+As errors occur and countermeasures fail, you need a system to review and modify them to get the desired results.
+
+You can also determine whether the expected result is the result of a countermeasure action or just a fluke.
+
+## Action {collapsible="true"}
+
+### VIII.Normalize
+
+It's time to set the new process as a new standard within the organization.
+
