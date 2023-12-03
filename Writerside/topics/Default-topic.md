@@ -70,3 +70,78 @@ You can also determine whether the expected result is the result of a countermea
 
 It's time to set the new process as a new standard within the organization.
 
+
+
+
+PID:
+
+学习成本
+
+学习原来原理
+
+结构二轴改三轴,代码需要修改
+
+调试硬件没做完,软件不能调试
+
+
+ways:
+
+gpt大概了解概念,explain the core of program
+
+from core to understand this things 
+
+and attempt to take a look of code  
+
+and modify the code with gpt
+
+
+template
+
+standard/regurlazation Doc
+
+Doc type(issues,resolution)
+
+such as issues:error ex idea
+
+Doc , resources,
+
+// 看一些目前的规范的做法
+error report
+: 综合简单描述,详细情况,预期和实际偏差,
+: 证据,详细说明,事实而不是猜测
+: 采取了对应措施,解决方案,结果
+: 猜测原因,思路,未尝试的思路
+
+
+执行:
+1.执行效率:任务你安排下去,什么
+2.小任务拖延,至少2天,leap,
+3.ddl提前,
+4.重复确认(所有人看见)
+5.团队内信息共享,透明
+6.怎么让团队成员看看板,接受你的工作流(逐步接受)
+7.自检(团队内自审),建立评审,开会(对齐问题)
+8.信息同步
+9.遇到问题,检查,解决,记录
+
+复盘
+
+总结
+
+交付标准,规范
+
+共地GND
+
+
+
+
+
+
+
+
+
+
+
+
+
+

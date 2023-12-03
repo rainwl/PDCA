@@ -7,5 +7,6 @@
                  start-page="Default-topic.md">
 
     <toc-element topic="Default-topic.md"/>
+    <toc-element topic="Lists.md"/>
     <toc-element topic="Linked-with-reality.md"/>
 </instance-profile>
